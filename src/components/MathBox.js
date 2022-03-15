@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
-import Calculator from './components/Calculator';
 
-export default class App extends Component {
+export default class MathBox extends Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -10,7 +8,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <Calculator />
+      <input id="math-box" type="number" placeholder="0" defaultValue={0} />
     );
   }
 }

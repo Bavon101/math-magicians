@@ -1,39 +1,58 @@
-.App {
-  text-align: center;
+.cal-card {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 65%;
+  max-width: 950px;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+input {
+  width: calc(100% - 10px);
+  height: 15%;
+  background-color: gray;
+  text-align: end;
+  border: none;
+  margin: 0;
+  padding: 5px;
   color: white;
+  font-size: 24px;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+input:focus {
+  outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.input-tile {
+  height: 55px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  font-weight: 800;
+  border: none;
+  cursor: pointer;
+}
 
-  to {
-    transform: rotate(360deg);
+.inputs-card {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+@media (max-width: 768px) {
+  .cal-card {
+    width: 90%;
   }
 }
