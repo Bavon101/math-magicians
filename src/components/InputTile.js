@@ -9,8 +9,10 @@ export default class InputTile extends Component {
 
   render() {
     const { input } = this.props;
+    const { onClick } = this.props;
+    const textColor = input.color !== undefined ? 'white' : null;
     return (
-      <button type="submit" className="input-tile" style={{ backgroundColor: input.color, gridColumn: input.grid }}>{input.key}</button>
+      <button type="submit" onClick={onClick} className="input-tile" style={{ backgroundColor: input.color, gridColumn: input.grid, color: textColor }}>{input.key}</button>
     );
   }
 }
@@ -18,4 +20,5 @@ export default class InputTile extends Component {
 InputTile.propTypes = {
   // eslint-disable-next-line react/forbid-prop-types
   input: PropTypes.object.isRequired,
+  onClick: PropTypes.func.isRequired,
 };

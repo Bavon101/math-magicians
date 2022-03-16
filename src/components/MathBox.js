@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 export default class MathBox extends Component {
   constructor(props) {
@@ -7,8 +8,13 @@ export default class MathBox extends Component {
   }
 
   render() {
+    const { keyed } = this.props;
     return (
-      <input id="math-box" type="number" placeholder="0" defaultValue={0} />
+      <div className="math-box">{keyed}</div>
     );
   }
 }
+
+MathBox.propTypes = {
+  keyed: PropTypes.string.isRequired,
+};
