@@ -19,7 +19,7 @@
 
 ## Live Demo
 
-Coming soon...
+[Live link](https://bavon101.github.io/math-magicians/)
 
 ## Getting Started
 
