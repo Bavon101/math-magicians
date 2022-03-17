@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import InputTile from './InputTile';
 import MathBox from './MathBox';
 import calculate from '../logic/calculate';
 
-export default class Calculator extends Component {
-  inputKeys = [
+const Calculator = () => {
+  const inputKeys = [
     {
       key: 'AC',
       operan: true,
@@ -106,29 +106,22 @@ export default class Calculator extends Component {
       solution: true,
     },
   ];
+  const [keyed, updateKey] = useState('0');
+  const [solution, updateSolution] = useState({
+    total: '0',
+    next: null,
+    operation: null,
+  });
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      keyed: '0',
-      solution: {
-        total: '0',
-        next: null,
-        operation: null,
-      },
-    };
-  }
-
-  onTileClick = (input) => {
+  const onTileClick = (input) => {
     // check if the input is a dummy one
     if (input.dummy) {
       return;
     }
-    const { solution } = this.state;
     // check if the user wants to solve none existing solution
     if (input.solution && solution.operation === null) {
       if (solution.total) {
-        this.setState({ keyed: solution.total });
+        updateKey(solution.total);
       }
       return;
     }
@@ -139,27 +132,24 @@ export default class Calculator extends Component {
     }
     const { next } = solved;
     const hasNext = next !== null && next !== undefined;
-    this.setState({
-      solution: solved,
-      keyed: !hasNext ? solved.total : next,
-    });
+    updateKey(!hasNext ? solved.total : next);
+    updateSolution(solved);
   };
 
-  render() {
-    const { keyed } = this.state;
-    return (
-      <div className="cal-card">
-        <MathBox keyed={keyed} />
-        <div className="inputs-card">
-          {this.inputKeys.map((k) => (
-            <InputTile
-              key={k.key}
-              input={k}
-              onClick={() => this.onTileClick(k)}
-            />
-          ))}
-        </div>
+  return (
+    <div className="cal-card">
+      <MathBox keyed={keyed} />
+      <div className="inputs-card">
+        {inputKeys.map((k) => (
+          <InputTile
+            key={k.key}
+            input={k}
+            onClick={() => onTileClick(k)}
+          />
+        ))}
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
+
+export default Calculator;
