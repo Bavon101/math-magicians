@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import Calculator from '../Calculator';
 import Header from '../Header';
@@ -8,7 +7,7 @@ export default function CalculatorPage() {
     <div>
       <Header />
       <section className="calc-elements">
-        <h3>Let's do some math!</h3>
+        <h3>Let&apos;s do some math!</h3>
         <Calculator />
       </section>
     </div>
