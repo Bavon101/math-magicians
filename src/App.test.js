@@ -5,6 +5,8 @@ import calculate from './logic/calculate';
 import Calculator from './components/Calculator';
 import InputTile from './components/InputTile';
 import MathBox from './components/MathBox';
+import { render, screen } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
 
 test('Test operate 1 - 1 = 0', () => {
   expect(operate(1, 1, '-')).toBe('0');
@@ -23,9 +25,7 @@ test('Calculate 35 & 35 with key + equal 70', () => {
 });
 
 it('render Calculator', () => {
-  const calc = renderer
-    .create(<Calculator />)
-    .toJSON();
+  const calc = renderer.create(<Calculator />).toJSON();
   expect(calc).toMatchSnapshot();
 });
 
@@ -58,9 +58,7 @@ it('render Calculator inputTile', () => {
 });
 
 it('render Calculator Solution Box', () => {
-  const solutionBox = renderer
-    .create(<MathBox keyed="0" />)
-    .toJSON();
+  const solutionBox = renderer.create(<MathBox keyed="0" />).toJSON();
   expect(solutionBox).toMatchInlineSnapshot(`
 <div
   className="math-box"
@@ -68,4 +66,19 @@ it('render Calculator Solution Box', () => {
   0
 </div>
 `);
+});
+
+test('SolutionBox should have 10 ( 5 + 5 = 10)', () => {
+  const { container } = render(<Calculator />);
+  const number1 = screen.getByText('5');
+  const number2 = screen.getByText('5');
+  const operan = screen.getByText('+');
+  const equal = screen.getByText('=');
+  userEvent.click(number1);
+  userEvent.click(operan);
+  userEvent.click(number2);
+  userEvent.click(equal);
+  expect(container.getElementsByClassName('math-box')[0].textContent).toBe(
+    '10'
+  );
 });
