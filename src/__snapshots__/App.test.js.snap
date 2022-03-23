@@ -282,6 +282,288 @@ exports[`render Calculator 1`] = `
 </div>
 `;
 
+exports[`render Calculator 2`] = `
+<div
+  className="cal-card"
+>
+  <div
+    className="math-box"
+  >
+    0
+  </div>
+  <div
+    className="inputs-card"
+  >
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      AC
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      +/-
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      %
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#3d5a80",
+          "color": "white",
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      ÷
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      7
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      8
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      9
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#3d5a80",
+          "color": "white",
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      x
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      4
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      5
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      6
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#3d5a80",
+          "color": "white",
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      -
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      1
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      2
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      3
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#3d5a80",
+          "color": "white",
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      +
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": "1/3",
+        }
+      }
+      type="submit"
+    >
+      0
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      .
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#3d5a80",
+          "color": "white",
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      =
+    </button>
+  </div>
+</div>
+`;
+
 exports[`render CalculatorPage 1`] = `
 <div
   className="cal-card"
@@ -561,6 +843,1380 @@ exports[`render CalculatorPage 1`] = `
       =
     </button>
   </div>
+</div>
+`;
+
+exports[`render CalculatorPage 2`] = `
+<div>
+  <div
+    className="header"
+  >
+    <h1>
+       Math Magicians
+    </h1>
+    <div
+      className="links"
+    >
+      <a
+        href="./"
+      >
+        Home
+      </a>
+      <div
+        className="vr"
+      />
+      <a
+        href="./calculator"
+      >
+        Calculator
+      </a>
+      <div
+        className="vr"
+      />
+      <a
+        href="./quote"
+      >
+        Qoute
+      </a>
+    </div>
+  </div>
+  <section
+    className="calc-elements"
+  >
+    <h3>
+      Let's do some math!
+    </h3>
+    <div
+      className="cal-card"
+    >
+      <div
+        className="math-box"
+      >
+        0
+      </div>
+      <div
+        className="inputs-card"
+      >
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          AC
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          +/-
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          %
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#3d5a80",
+              "color": "white",
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          ÷
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          7
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          8
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          9
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#3d5a80",
+              "color": "white",
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          x
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          4
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          5
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          6
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#3d5a80",
+              "color": "white",
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          -
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          1
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          2
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          3
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#3d5a80",
+              "color": "white",
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          +
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": "1/3",
+            }
+          }
+          type="submit"
+        >
+          0
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          .
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#3d5a80",
+              "color": "white",
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`render Header 1`] = `<header />`;
+
+exports[`render HomePage 1`] = `
+<div>
+  <div
+    className="header"
+  >
+    <h1>
+       Math Magicians
+    </h1>
+    <div
+      className="links"
+    >
+      <a
+        href="./"
+      >
+        Home
+      </a>
+      <div
+        className="vr"
+      />
+      <a
+        href="./calculator"
+      >
+        Calculator
+      </a>
+      <div
+        className="vr"
+      />
+      <a
+        href="./quote"
+      >
+        Qoute
+      </a>
+    </div>
+  </div>
+  <h2>
+     Welcome to our page!
+  </h2>
+  <article>
+    Math magic tricks can liven up any math class and create a sense of wonder and curiosity about math. Not only that, math magic creates a new context for algebraic reasoning as students go beyond "What's the answer?" to explore "What's the trick?"
+  </article>
+</div>
+`;
+
+exports[`render QuotePage 1`] = `
+<div>
+  <div
+    className="header"
+  >
+    <h1>
+       Math Magicians
+    </h1>
+    <div
+      className="links"
+    >
+      <a
+        href="./"
+      >
+        Home
+      </a>
+      <div
+        className="vr"
+      />
+      <a
+        href="./calculator"
+      >
+        Calculator
+      </a>
+      <div
+        className="vr"
+      />
+      <a
+        href="./quote"
+      >
+        Qoute
+      </a>
+    </div>
+  </div>
+  <section
+    className="calc-elements"
+  >
+    <h3>
+      Let's do some math!
+    </h3>
+    <div
+      className="cal-card"
+    >
+      <div
+        className="math-box"
+      >
+        0
+      </div>
+      <div
+        className="inputs-card"
+      >
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          AC
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          +/-
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          %
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#3d5a80",
+              "color": "white",
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          ÷
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          7
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          8
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          9
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#3d5a80",
+              "color": "white",
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          x
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          4
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          5
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          6
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#3d5a80",
+              "color": "white",
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          -
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          1
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          2
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          3
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#3d5a80",
+              "color": "white",
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          +
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": "1/3",
+            }
+          }
+          type="submit"
+        >
+          0
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          .
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#3d5a80",
+              "color": "white",
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`render QuotePage: 
+<div>
+  <div
+    className="header"
+  >
+    <h1>
+       Math Magicians
+    </h1>
+    <div
+      className="links"
+    >
+      <a
+        href="./"
+      >
+        Home
+      </a>
+      <div
+        className="vr"
+      />
+      <a
+        href="./calculator"
+      >
+        Calculator
+      </a>
+      <div
+        className="vr"
+      />
+      <a
+        href="./quote"
+      >
+        Qoute
+      </a>
+    </div>
+  </div>
+  <article>
+    Math is not about numbers, equations, computations, or alogorithms: It is about understanding. - William Paul Thurston
+  </article>
+</div>
+ 1`] = `
+<div>
+  <div
+    className="header"
+  >
+    <h1>
+       Math Magicians
+    </h1>
+    <div
+      className="links"
+    >
+      <a
+        href="./"
+      >
+        Home
+      </a>
+      <div
+        className="vr"
+      />
+      <a
+        href="./calculator"
+      >
+        Calculator
+      </a>
+      <div
+        className="vr"
+      />
+      <a
+        href="./quote"
+      >
+        Qoute
+      </a>
+    </div>
+  </div>
+  <article>
+    Math is not about numbers, equations, computations, or alogorithms: It is about understanding. - William Paul Thurston
+  </article>
+</div>
+`;
+
+exports[`render Vr 1`] = `
+<div
+  className="cal-card"
+>
+  <div
+    className="math-box"
+  >
+    0
+  </div>
+  <div
+    className="inputs-card"
+  >
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      AC
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      +/-
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      %
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#3d5a80",
+          "color": "white",
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      ÷
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      7
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      8
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      9
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#3d5a80",
+          "color": "white",
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      x
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      4
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      5
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      6
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#3d5a80",
+          "color": "white",
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      -
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      1
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      2
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      3
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#3d5a80",
+          "color": "white",
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      +
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": "1/3",
+        }
+      }
+      type="submit"
+    >
+      0
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": null,
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      .
+    </button>
+    <button
+      className="input-tile"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#3d5a80",
+          "color": "white",
+          "gridColumn": undefined,
+        }
+      }
+      type="submit"
+    >
+      =
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renderQuoPage 1`] = `
+<div>
+  <div
+    className="header"
+  >
+    <h1>
+       Math Magicians
+    </h1>
+    <div
+      className="links"
+    >
+      <a
+        href="./"
+      >
+        Home
+      </a>
+      <div
+        className="vr"
+      />
+      <a
+        href="./calculator"
+      >
+        Calculator
+      </a>
+      <div
+        className="vr"
+      />
+      <a
+        href="./quote"
+      >
+        Qoute
+      </a>
+    </div>
+  </div>
+  <section
+    className="calc-elements"
+  >
+    <h3>
+      Let's do some math!
+    </h3>
+    <div
+      className="cal-card"
+    >
+      <div
+        className="math-box"
+      >
+        0
+      </div>
+      <div
+        className="inputs-card"
+      >
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          AC
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          +/-
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          %
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#3d5a80",
+              "color": "white",
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          ÷
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          7
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          8
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          9
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#3d5a80",
+              "color": "white",
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          x
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          4
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          5
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          6
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#3d5a80",
+              "color": "white",
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          -
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          1
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          2
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          3
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#3d5a80",
+              "color": "white",
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          +
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": "1/3",
+            }
+          }
+          type="submit"
+        >
+          0
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": null,
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          .
+        </button>
+        <button
+          className="input-tile"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#3d5a80",
+              "color": "white",
+              "gridColumn": undefined,
+            }
+          }
+          type="submit"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </section>
 </div>
 `;
 
