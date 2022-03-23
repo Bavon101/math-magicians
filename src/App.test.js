@@ -68,7 +68,7 @@ it('render Calculator Solution Box', () => {
 `);
 });
 
-test('SolutionBox should have 10 ( 5 + 5 = 10)', () => {
+test('SolutionBox should have 10 ( 5 + 6 = 10)', () => {
   const { container } = render(<Calculator />);
   const number1 = screen.getByText('5');
   const number2 = screen.getByText('5');
@@ -79,6 +79,6 @@ test('SolutionBox should have 10 ( 5 + 5 = 10)', () => {
   userEvent.click(number2);
   userEvent.click(equal);
   expect(container.getElementsByClassName('math-box')[0].textContent).toBe(
-    '10',
+    '11',
   );
 });
