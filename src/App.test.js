@@ -1,12 +1,12 @@
 import renderer from 'react-test-renderer';
 import '@testing-library/jest-dom';
+import { render, screen } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
 import operate from './logic/operate';
 import calculate from './logic/calculate';
 import Calculator from './components/Calculator';
 import InputTile from './components/InputTile';
 import MathBox from './components/MathBox';
-import { render, screen } from '@testing-library/react';
-import userEvent from '@testing-library/user-event';
 
 test('Test operate 1 - 1 = 0', () => {
   expect(operate(1, 1, '-')).toBe('0');
@@ -79,6 +79,6 @@ test('SolutionBox should have 10 ( 5 + 5 = 10)', () => {
   userEvent.click(number2);
   userEvent.click(equal);
   expect(container.getElementsByClassName('math-box')[0].textContent).toBe(
-    '10'
+    '10',
   );
 });
