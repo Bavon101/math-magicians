@@ -19,7 +19,8 @@
 
 ## Live Demo
 
-[Live link](https://bavon101.github.io/math-magicians/)
+[Heroku](https://math-magician-bavon101.herokuapp.com)
+[Netlify](https://math-magician-bavon101.netlify.app/)
 
 ## Getting Started
 
